@@ -14,7 +14,8 @@ def myprocess(filename):
 	fin = open(filename,'r')
 	fout = open(filename + '.out','w')
 	url_get_base = "http://ltpapi.voicecloud.cn/analysis/?"
-	api_key = 'p2Q5L8376EgqBDfvTdkVBcTYxEOxtSzTyUFdbZ1M'
+	# 这里替换成自己的用户id
+	api_key = 'abcdefghijklmnopq'
 	# 定义返回格式
 	fmt = 'plain'
 	# 识别命名实体
